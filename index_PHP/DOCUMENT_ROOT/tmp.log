@@ -1,0 +1,40 @@
+LOG type(5) [13.04.2021 10:04:16]: Connected to DB! at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 30
+LOG type(5) [13.04.2021 10:04:16]: curpage: listorders at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 39
+LOG type(5) [13.04.2021 10:04:16]: inside list at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\OrderClass.php line 21
+LOG type(5) [13.04.2021 10:04:16]: query: SELECT `order`.`oid`, `order`.`order_num`, `order`.`order_date`, 
+            CONCAT(`client`.`lastname`, ' ', `client`.`firstname`) as client
+        FROM `order`
+        LEFT JOIN `client` ON `order`.`client_id`=`client`.`ID`
+        WHERE 1 at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 21
+LOG type(5) [13.04.2021 10:04:16]: params: array (
+) at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 22
+LOG type(5) [13.04.2021 10:04:47]: Connected to DB! at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 30
+LOG type(5) [13.04.2021 10:04:47]: curpage: listorders at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 39
+LOG type(5) [13.04.2021 10:04:47]: inside list at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\OrderClass.php line 21
+LOG type(5) [13.04.2021 10:04:47]: query: SELECT `order`.`oid`, `order`.`order_num`, `order`.`order_date`, 
+            CONCAT(`client`.`lastname`, ' ', `client`.`firstname`) as client
+        FROM `order`
+        LEFT JOIN `client` ON `order`.`client_id`=`client`.`ID`
+        WHERE 1 at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 21
+LOG type(5) [13.04.2021 10:04:47]: params: array (
+) at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 22
+LOG type(5) [13.04.2021 10:04:49]: Connected to DB! at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 30
+LOG type(5) [13.04.2021 10:04:49]: curpage: listorders at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 39
+LOG type(5) [13.04.2021 10:04:49]: inside list at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\OrderClass.php line 21
+LOG type(5) [13.04.2021 10:04:49]: query: SELECT `order`.`oid`, `order`.`order_num`, `order`.`order_date`, 
+            CONCAT(`client`.`lastname`, ' ', `client`.`firstname`) as client
+        FROM `order`
+        LEFT JOIN `client` ON `order`.`client_id`=`client`.`ID`
+        WHERE 1 at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 21
+LOG type(5) [13.04.2021 10:04:49]: params: array (
+) at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 22
+LOG type(5) [13.04.2021 10:04:49]: Connected to DB! at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 30
+LOG type(5) [13.04.2021 10:04:49]: curpage: listorders at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\EventHandler.php line 39
+LOG type(5) [13.04.2021 10:04:49]: inside list at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\OrderClass.php line 21
+LOG type(5) [13.04.2021 10:04:49]: query: SELECT `order`.`oid`, `order`.`order_num`, `order`.`order_date`, 
+            CONCAT(`client`.`lastname`, ' ', `client`.`firstname`) as client
+        FROM `order`
+        LEFT JOIN `client` ON `order`.`client_id`=`client`.`ID`
+        WHERE 1 at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 21
+LOG type(5) [13.04.2021 10:04:49]: params: array (
+) at C:\CoursePHP\examples\t8.misc\index_version3\safeplace\MyApp\Controller\DBClass.php line 22
